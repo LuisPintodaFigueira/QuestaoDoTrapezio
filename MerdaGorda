@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class MerdaGorda {
+
+    public static Scanner tecladoScanner = new Scanner(System.in);
+
+    public static void main (String[] args) {
+        int positivo = 0;
+        int negativo = 0;
+        int numero = 0;
+        String classNum = null;
+
+        imprimir("digite um número inteiro");
+        numero = lerValorInt;
+
+        imprimir("o valor do número é" + classNum);
+        classNum = null;
+    }
+    
+    public static void imprimir (String saida) {
+        System.out.println(saida);
+    }
+
+    public static int lerValorInt(int numero) {
+        int resultado = 0;
+        resultado = if (numero > 0) = positivo,
+
+    }
+
+}
