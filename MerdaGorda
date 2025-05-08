@@ -1,17 +1,14 @@
-import java.util.Scanner;
-
-public class MerdaGorda {
-
-    public static Scanner tecladoScanner = new Scanner(System.in);
+ public static Scanner tecladoScanner = new Scanner(System.in);
 
     public static void main (String[] args) {
         int positivo = 0;
         int negativo = 0;
+        int zero = 0;
         int numero = 0;
         String classNum = null;
 
         imprimir("digite um número inteiro");
-        numero = lerValorInt;
+        numero = lerValorInt(numero, positivo, negativo, zero);
 
         imprimir("o valor do número é" + classNum);
         classNum = null;
@@ -21,10 +18,15 @@ public class MerdaGorda {
         System.out.println(saida);
     }
 
-    public static int lerValorInt(int numero) {
-        int resultado = 0;
-        resultado = if (numero > 0) = positivo,
-
+    public static int lerValorInt (int numero, int positivo, int negativo, int zero) {
+        if (numero > 0) {
+            numero = positivo;
+        } else if (numero < 0) {
+            numero = negativo;
+        } else if (numero == 0) {
+            numero = zero;
+        }
+        return numero;
     }
 
 }
