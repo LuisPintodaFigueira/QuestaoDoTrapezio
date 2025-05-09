@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Piroca {
+public class QuestaoDoTrapezio {
 
     public static Scanner tecladoScanner = new Scanner(System.in);
 
