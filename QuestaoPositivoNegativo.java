@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumerosPositivos {
+public class QuestaoPositivoNegativo {
 
     final static Scanner tecladoScanner = new Scanner(System.in);
 
